@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Contatos</title>
+  </head>
+  <body>
+    <h1>Formulario de Contactos</h1>
+    <form action="mailto:g@gmail.com" method="POST">
+      <label for="name">Nombre Completo</label><br />
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="name">Email</label><br />
+      <input type="text" id="name" name="email" /> <br /><br />
+      <label for="sexo">Sexo</label> <br />
+      <input type="radio" name="masculino" /><label for="sexo">Masculino</label><br />
+      <input type="radio" name="femenino"/><label for="sexo">Femenino</label><br /><br />
+      <label for="">Ocupacion</label> <br />
+
+      <select>
+        <option value="Ingeniero">Ingeniero</option>
+        <option value="Estudiante">Estudiante</option>
+        <option value="Medico">Medico</option>
+        <option value="Contador">Contador</option>
+        <option value="Farmaceutica">Farmaceutica</option>
+        <option value="Casalinga">Casalinga</option>
+        <option value="Musico">Musico</option>
+      </select>
+      <br />
+      <br />
+      <label for="Newsletter">Suscripcion Newsletter</label><br />
+      <input type="checkbox" name="yes" />
+      <br /><br />
+      <label for="password">Password</label><br />
+      <input type="password" /><br /><br />
+      <label for="Msg">Mensaje de Bienvenida</label><br />
+      <textarea name="mensaje" id="" cols="30" rows="10"></textarea><br>
+      <input type="submit" value="Confirmar" />
+    </form>
+  </body>
+</html>
